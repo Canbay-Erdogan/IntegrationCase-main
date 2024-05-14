@@ -13,7 +13,7 @@ public sealed class ItemOperationBackend
         // This simulates how long it takes to save
         // the item content. Forty seconds, give or take.
         Thread.Sleep(2_000);
-        
+
         var item = new Item();
         item.Content = itemContent;
         item.Id = GetNextIdentity();
